@@ -9,6 +9,9 @@ export class AppComponent {
   title = 'Simple Angular APP';
   numberA:number=5;
   numberB:number=5;
+  onSave($event){
+    console.log("save button clicked")
+  }
 }
 
 
